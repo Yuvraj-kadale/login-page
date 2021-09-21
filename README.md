@@ -1,2 +1,2 @@
-# loginpage
-simple login page
+# login page for physcopatholgy assistant
+
