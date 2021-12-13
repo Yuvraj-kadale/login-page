@@ -17,3 +17,17 @@
 			}, false)
 		})
 })()
+
+function validate()
+{
+	var email=document.getadminElementById("email").value;
+	var password=document.getElementById("password").value;
+	if(email=="admin@gmail.com" && password=="admin"){
+		alert("login successful");
+		return false;
+	}
+	else
+	{
+		alert("login failed");
+	}
+}
